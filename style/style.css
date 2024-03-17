@@ -1,19 +1,14 @@
 /* Purpose: This is the default colour scale and fonts for the site  */
 
 :root {
-    --dodger-blue-50: #eef8ff;
-    --dodger-blue-100: #d9efff;
-    --dodger-blue-200: #bce4ff;
-    --dodger-blue-300: #8ed3ff;
-    --dodger-blue-400: #59b9ff;
-    --dodger-blue-500: #2493ff;
-    --dodger-blue-600: #1b7bf5;
-    --dodger-blue-700: #1464e1;
-    --dodger-blue-800: #1750b6;
-    --dodger-blue-900: #19468f;
-    --dodger-blue-950: #142c57;       
+    --pastel-beige: #eee0c9;
+    --pastel-lightblue: #adc4ce;
+    --pastel-darkblue: #96b6c5;
+    --pastel-darkdarkblue: #1f2a32;
+    --pastel-grey: #f1f0e8;   
 
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 * {
@@ -23,9 +18,10 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: var(--dodger-blue-300);
+    background-color: var(--pastel-beige);
     justify-content: center;
     align-items: center;
+    color: var(--pastel-darkdarkblue);
 }
 
 header {
@@ -35,12 +31,31 @@ header {
     justify-content: space-between;
     height: 8dvh;
     width: 95%;
-}
-
-nav {
     text-decoration: none;
+    
+
 }
 
-a:hover {
-    text-decoration: wavy;
+nav > a {
+    text-decoration: none;
+    padding: 0.50em;
+    color: var(--pastel-darkdarkblue);
+
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* This is the view for mobile users */
+
+
+
+
+/* This is the view for desktop users */
+@media screen and (min-width: 500px) {
+    body {}
 }
