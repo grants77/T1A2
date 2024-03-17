@@ -25,38 +25,22 @@ body {
     flex-direction: column;
     background-color: var(--dodger-blue-300);
     justify-content: center;
-    align-items: left;
+    align-items: center;
 }
 
 header {
     display: flex;
-    height: 4dvh;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-
-    background-color: var(--dodger-blue-200);
+    justify-content: space-between;
+    height: 8dvh;
+    width: 95%;
 }
 
 nav {
-    display: flex;
-    
-    text-align: right;
-    flex-direction: column;
-    justify-content: right;
-    align-items: right;
+    text-decoration: none;
+}
 
-    background-color: var(--dodger-blue-100);
-} 
-
-
-footer {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--dodger-blue-400);
-    height: 2dvh;
-    width: 100%;
-    text-align: right;
-    justify-content: ;
-    align-items: right;
+a:hover {
+    text-decoration: wavy;
 }
