@@ -1,0 +1,62 @@
+/* Purpose: This is the default colour scale and fonts for the site  */
+
+:root {
+    --dodger-blue-50: #eef8ff;
+    --dodger-blue-100: #d9efff;
+    --dodger-blue-200: #bce4ff;
+    --dodger-blue-300: #8ed3ff;
+    --dodger-blue-400: #59b9ff;
+    --dodger-blue-500: #2493ff;
+    --dodger-blue-600: #1b7bf5;
+    --dodger-blue-700: #1464e1;
+    --dodger-blue-800: #1750b6;
+    --dodger-blue-900: #19468f;
+    --dodger-blue-950: #142c57;       
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dodger-blue-300);
+    justify-content: center;
+    align-items: left;
+}
+
+header {
+    display: flex;
+    height: 4dvh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--dodger-blue-200);
+}
+
+nav {
+    display: flex;
+    
+    text-align: right;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+
+    background-color: var(--dodger-blue-100);
+} 
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dodger-blue-400);
+    height: 2dvh;
+    width: 100%;
+    text-align: right;
+    justify-content: ;
+    align-items: right;
+}
