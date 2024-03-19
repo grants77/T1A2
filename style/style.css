@@ -15,6 +15,7 @@
     margin: 0;
 }
 
+/* This is the styling for the entire body of the page unless stated otherwise */
 body {
     display: flex;
     flex-direction: column;
@@ -24,6 +25,7 @@ body {
     color: var(--pastel-darkdarkblue);
 }
 
+/* This is the styling for the header, which includes the logo and navbar */
 header {
     display: flex;
     flex-direction: row;
@@ -34,6 +36,7 @@ header {
     text-decoration: none;
 }
 
+/* This is specific to anchor elements */
 nav > a {
     text-decoration: none;
     padding: 0.50em;
@@ -41,10 +44,12 @@ nav > a {
 
 }
 
+/* Animation to occur when hovering over anchors */
 nav > a:hover {
     text-decoration: underline;
 }
 
+/* This is the styling for the main section of the page where the majority of content goes */
 main {
     background-color: var(--pastel-grey);
     height: 40dvh;
@@ -54,13 +59,32 @@ main {
     justify-content: center;
 }
 
+/* I'm trying to make this go into the top left of the flex box and perhaps drop it's opacity.. We'll see how we go. */
+.homeHeader {
+    display:flex;
+    align-self:flex-start;
+    opacity: .6;
+} 
 .homeIntro {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     background-color: var(--pastel-grey);
-        
+    ;
+}
+
+.homeIntro > a {
+    background-color: var(--pastel-darkblue);
+	padding: 0.5em;
+	border-radius: 3em;
+	border: 2px solid var(--pastel-darkdarkblue);
+    color: white;
+    text-decoration: none;
+}
+.homeIntro > a:hover {
+    text-decoration: none;
+    background-color: var(--pastel-darkdarkblue);
 }
 
 footer {
@@ -75,6 +99,9 @@ footer {
     left: 0;
     bottom: 0;
 }
+
+
+
 
 /* This is the view for mobile users */
 
