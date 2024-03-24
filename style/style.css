@@ -81,12 +81,14 @@ main {
     align-items: center;
     background-color: var(--pastel-grey);
     width: 40dvh;
-    padding: 1em
+    padding: 1em;
+    
 }
 
 .homeImage > img {
     height: 15dvh;
     border-radius: 50%;
+    box-shadow: 0.2em 0.2em 5px var(--pastel-darkblue);
 }
 
 .homeLink {
