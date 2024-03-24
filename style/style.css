@@ -6,75 +6,95 @@
     --pastel-darkblue: #96b6c5;
     --pastel-darkdarkblue: #1f2a32;
     --pastel-grey: #f1f0e8;   
-
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 * {
     margin: 0;
 }
 
-/* This is the styling for the entire body of the page unless stated otherwise */
+/* This is the default styling for the page unless otherwise below */
 body {
     display: flex;
     flex-direction: column;
     background-color: var(--pastel-beige);
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    color: var(--pastel-darkdarkblue);
 }
 
 /* This is the styling for the header, which includes the logo and navbar */
 header {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    height: 8dvh;
-    width: 95%;
+    align-items: center;
+    background-color: var(--pastel-grey);
+    height: 4dvh;
+    width: 100%;
+    text-align: center;
     text-decoration: none;
 }
 
-/* This is specific to anchor elements */
+/* Styling for the anchor/navigation buttons in the navbar */
 nav > a {
     text-decoration: none;
-    padding: 0.50em;
+    padding: 0.25em;
     color: var(--pastel-darkdarkblue);
-
 }
 
-/* Animation to occur when hovering over anchors */
+/* Actions to occur when hovering over anchors */
 nav > a:hover {
     text-decoration: underline;
 }
 
-/* This is the styling for the main section of the page where the majority of content goes */
+/* END NAVIGATION */
+
+/* START MAIN FLEX WRAPPING */
+
 main {
-    background-color: var(--pastel-grey);
-    height: 40dvh;
-    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 2em;
 }
 
-/* I'm trying to make this go into the top left of the flex box and perhaps drop it's opacity.. We'll see how we go. */
-.homeHeader {
-    display:flex;
-    align-self:flex-start;
-    opacity: .6;
-} 
+/* START INTRO SECTION*/
+
 .homeIntro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     background-color: var(--pastel-grey);
-    ;
+    width: 40dvh;
+    padding: 1em;
 }
 
-.homeIntro > a {
+.homeImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--pastel-grey);
+    width: 40dvh;
+    padding: 1em
+}
+
+.homeImage > img {
+    height: 15dvh;
+    border-radius: 50%;
+}
+
+.homeLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--pastel-grey);
+    width: 40dvh;
+    padding: 1em
+}
+
+.homeLink > a {
     background-color: var(--pastel-darkblue);
 	padding: 0.5em;
 	border-radius: 3em;
@@ -82,7 +102,7 @@ main {
     color: white;
     text-decoration: none;
 }
-.homeIntro > a:hover {
+.homeLink > a:hover {
     text-decoration: none;
     background-color: var(--pastel-darkdarkblue);
 }
