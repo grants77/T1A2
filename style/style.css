@@ -68,21 +68,12 @@ main {
 
 .homeIntro {
     max-width: 65dvw;
-    /* Delete border-radius when done */
-    border-radius: 2em; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 0.5em;
-    background-color: var(--pastel-grey);
     width: 40dvh;
-    padding: 1em;
-}
-
-.homeIntro > section {
-    display: flex;
-    column-gap: 2em;
 }
 
 /* Image decoration */
@@ -115,8 +106,6 @@ footer {
     right: 0;
     bottom: 0.1em;
 }
-
-
 
 /* DESKTOP VIEW */
 @media screen and (min-width: 600px) {
