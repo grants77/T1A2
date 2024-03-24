@@ -60,40 +60,49 @@ nav > a:hover {
 
 /* START MAIN FLEX WRAPPING */
 
-main {
+
+.contentRow {
 	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+    margin: 0;
+}
+
+.aboutInfo {
 	max-width: 80dvw;
-    flex-direction: column;
-}
-
-/* START INTRO SECTION*/
-
-.homeIntro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Image decoration */
-.homeIntro > img {
-    height: 16dvh;
-    border-radius: 50%;
-    box-shadow: 0.2em 0.2em 5px var(--pastel-darkblue);
-}
-
-/* About me link */
-.homeIntro > a {
-    background-color: var(--pastel-darkblue);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 0.5em;
 	padding: 0.5em;
-	border-radius: 3em;
-	border: 2px solid var(--pastel-darkdarkblue);
-    color: white;
-    text-decoration: none;
+    border-radius: 0em;    
 }
-/* About me link animation */
-.homeIntro > a:hover {
-    text-decoration: none;
+
+/* B&W Image Style */
+.aboutInfo > img {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+	height: 25dvh;
+	border-radius: 2em;
+    box-shadow: 0.2em 0.2em 10px black;
+}
+
+.aboutInfo > a {
+	background-color: var(--pastel-darkblue);
+	padding: 1em;
+	border-radius: 2em;
+
+}
+
+.aboutInfo > a:hover {
+	background-color: var(--pastel-darkblue);
+	padding: 1em;
+	border-radius: 2em;
     background-color: var(--pastel-darkdarkblue);
+    color: white;
 }
 
 footer {
@@ -110,19 +119,3 @@ footer {
     color: black;
 }
 
-/* DESKTOP VIEW */
-@media screen and (min-width: 600px) {
-	main {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-        margin: 1em;
-        padding: 0;
-    }
-
-	.homeIntro {
-		width: 30dvw;
-		margin: 1em;
-	}
-}
