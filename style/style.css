@@ -32,7 +32,7 @@ header {
     align-items: center;
     background-color: var(--pastel-grey);
     height: 4dvh;
-    width: 100%;
+    width: 95dvw;
     text-align: center;
     text-decoration: none;
 }
@@ -61,13 +61,13 @@ main {
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
-    margin: 0;
+    margin: 1em;
 }
 
 /* START INTRO SECTION*/
 
 .homeIntro {
-    max-width: 65dvw;
+    max-width: 90dvw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,7 +78,7 @@ main {
 
 /* Image decoration */
 .homeIntro > img {
-    height: 15dvh;
+    height: 20dvh;
     border-radius: 50%;
     box-shadow: 0.2em 0.2em 5px var(--pastel-darkblue);
 }
@@ -108,7 +108,7 @@ footer {
 }
 
 /* DESKTOP VIEW */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 400px) {
 	main {
 		flex-direction: row;
 		flex-wrap: wrap;
