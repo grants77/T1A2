@@ -44,11 +44,13 @@ nav > a {
     text-decoration: none;
     padding: 0.25em;
     color: var(--pastel-darkdarkblue);
+
 }
 
 /* Actions to occur when hovering over anchors */
 nav > a:hover {
     text-decoration: underline;
+    transition: 1s;
 }
 
 /* END HEADER AND NAVIGATION */
@@ -56,51 +58,42 @@ nav > a:hover {
 /* START MAIN FLEX WRAPPING */
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding: 2em;
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+    margin: 0;
 }
 
 /* START INTRO SECTION*/
 
 .homeIntro {
+    max-width: 65dvw;
+    /* Delete border-radius when done */
+    border-radius: 2em; 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    row-gap: 0.5em;
     background-color: var(--pastel-grey);
     width: 40dvh;
     padding: 1em;
 }
 
-.homeImage {
+.homeIntro > section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--pastel-grey);
-    width: 40dvh;
-    padding: 1em;
-    
+    column-gap: 2em;
 }
 
-.homeImage > img {
+/* Image decoration */
+.homeIntro > img {
     height: 15dvh;
     border-radius: 50%;
     box-shadow: 0.2em 0.2em 5px var(--pastel-darkblue);
 }
 
-.homeLink {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--pastel-grey);
-    width: 40dvh;
-    padding: 1em
-}
-
-.homeLink > a {
+/* About me link */
+.homeIntro > a {
     background-color: var(--pastel-darkblue);
 	padding: 0.5em;
 	border-radius: 3em;
@@ -108,17 +101,36 @@ main {
     color: white;
     text-decoration: none;
 }
-.homeLink > a:hover {
+/* About me link animation */
+.homeIntro > a:hover {
     text-decoration: none;
     background-color: var(--pastel-darkdarkblue);
 }
 
 footer {
-    /* background-color: var(--pastel-grey); */
+    background-color: var(--pastel-grey);
     height: 1.5dvh;
     display: flex;
     position: fixed;
     right: 0;
-    bottom: 0;
+    bottom: 0.1em;
 }
 
+
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 600px) {
+	main {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+	.homeIntro {
+		width: 30dvw;
+		margin: 1em;
+	}
+}
