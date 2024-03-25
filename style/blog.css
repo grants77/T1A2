@@ -9,7 +9,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
 }
-
+/* START BODY */
 /* This is the default styling for the page unless otherwise below */
 body {
     display: flex;
@@ -20,7 +20,6 @@ body {
 }
 
 /* START HEADER AND NAVIGATION */
-
 /* This is the styling for the header, which includes the logo and navbar */
 header {
     display: flex;
@@ -32,14 +31,12 @@ header {
     text-align: center;
     text-decoration: none;
 }
-
 header a {
     color: var(--pastel-darkdarkblue);
     text-decoration: none;
 }
 
 /* START NAVIGATION */
-
 /* Styling for the anchor/navigation buttons in the navbar */
 nav > a {
     text-decoration: none;
@@ -47,26 +44,22 @@ nav > a {
     color: var(--pastel-darkdarkblue);
 
 }
-
 /* Actions to occur when hovering over anchors */
 nav > a:hover {
     text-decoration: underline;
     transition: 1s;
 }
-
 /* END HEADER AND NAVIGATION */
 
 /* START MAIN FLEX WRAPPING */
-
-
-.contentRow {
+article {
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
     margin: 0;
 }
 
-.aboutInfo {
+.blogText {
 	max-width: 70dvw;
 	display: flex;
 	flex-direction: column;
@@ -77,7 +70,7 @@ nav > a:hover {
 }
 
 /* B&W Image Style */
-.aboutInfo > img {
+.blogImage > img {
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -88,7 +81,7 @@ nav > a:hover {
     margin: 0;
 }
 
-.aboutInfo > a {
+.blogText > a {
     background-color: var(--pastel-darkblue);
 	padding: 0.5em;
 	border-radius: 3em;
@@ -97,7 +90,7 @@ nav > a:hover {
     text-decoration: none;
 }
 
-.aboutInfo > a:hover {
+.blogText > a:hover {
     text-decoration: none;
     background-color: var(--pastel-darkdarkblue);
 }
@@ -120,6 +113,7 @@ p {
     margin: 0;
 }
 
+/* START FOOTER */
 footer {
     display: flex;
     flex-direction: row;
