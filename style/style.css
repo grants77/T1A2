@@ -64,6 +64,8 @@ main {
 	display: flex;
 	max-width: 80dvw;
     flex-direction: column;
+    padding: 0.1rem;
+    margin: 0;
 }
 
 /* START INTRO SECTION*/
@@ -94,6 +96,24 @@ main {
 .homeIntro > a:hover {
     text-decoration: none;
     background-color: var(--pastel-darkdarkblue);
+}
+
+h1 {
+    display: flex;
+    padding: 0.2rem;
+    margin: 0;
+}
+
+h2 {
+    display: flex;
+    padding: 0.2rem;
+    margin: 0;
+}
+
+h4 {
+    display: flex;
+    padding: 0.2rem;
+    margin: 0;
 }
 
 footer {
