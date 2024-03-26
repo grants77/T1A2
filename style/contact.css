@@ -74,9 +74,9 @@ section {
 
 /* Blog image */
 section > img {
-    height: 5dvh;
-    border-radius: 2em 2em 0 0;
-    width: 10dvw;
+    height: 5em;
+
+    width: 5em;
 }
 
 section > a {
