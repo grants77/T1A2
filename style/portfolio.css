@@ -74,7 +74,7 @@ article {
 
 /* Blog image */
 article > img {
-    height: 20dvh;
+    height: 15dvh;
     border-radius: 2em 2em 0 0;
     width: 80dvw;
 }
@@ -93,6 +93,12 @@ article > a:hover {
     background-color: var(--pastel-darkdarkblue);
 }
 
+h1 {
+    display: flex;
+    padding: 0.5em 0 0 0;
+    margin: 0;
+}
+
 h3 {
     display: flex;
     padding: 0;
@@ -108,7 +114,7 @@ h4 {
 p {
     display: flex;
     padding: 0;
-    margin: 0.5em;
+    margin: 1em;
 }
 
 /* About me link */
