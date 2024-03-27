@@ -1,0 +1,169 @@
+/* Purpose: This is the default colour scale and fonts for the site  */
+
+:root {
+    --pastel-beige: #eee0c9;
+    --pastel-lightblue: #adc4ce;
+    --pastel-darkblue: #96b6c5;
+    --pastel-darkdarkblue: #1f2a32;
+    --pastel-grey: #f1f0e8;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+/* START BODY */
+/* This is the default styling for the page unless otherwise below */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--pastel-beige);
+    justify-content: center;
+    align-items: center;
+}
+
+/* START HEADER AND NAVIGATION */
+/* This is the styling for the header, which includes the logo and navbar */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4dvh;
+    width: 95dvw;
+    text-align: center;
+    text-decoration: none;
+}
+header a {
+    color: var(--pastel-darkdarkblue);
+    text-decoration: none;
+}
+
+/* START NAVIGATION */
+/* Styling for the anchor/navigation buttons in the navbar */
+nav > a {
+    text-decoration: none;
+    padding: 0.25em;
+    color: var(--pastel-darkdarkblue);
+
+}
+/* Actions to occur when hovering over anchors */
+nav > a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+/* END HEADER AND NAVIGATION */
+
+/* START MAIN FLEX WRAPPING */
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 1em;
+    padding: 2em;
+}
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--pastel-beige);
+	max-width: 10dvw;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5em;
+}
+
+/* Blog image */
+section > a img {
+    height: 33.75px;
+    width: 60px;
+    padding: 0.5em;
+}
+
+/* section > a {
+    background-color: var(--pastel-darkblue);
+	padding: 0.5em;
+	border-radius: 0.5em;
+	border: 0.5em solid var(--pastel-darkdarkblue);
+    color: white;
+    text-decoration: none;
+} */
+
+/* section > a:hover {
+    text-decoration: none;
+    background-color: var(--pastel-darkdarkblue);
+} */
+
+h3 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    display: flex;
+    padding: 0;
+    margin: 0.5em;
+}
+
+/* About me link */
+article button {
+    background-color: var(--pastel-darkblue);
+	padding: 0.5em;
+    margin: 0.5em;
+	border-radius: 3em;
+	border: none;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+/* About me link animation */
+article button:hover {
+    text-decoration: none;
+    background-color: var(--pastel-darkdarkblue);
+    color: white;
+}
+
+/* START FOOTER */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 2dvh;
+    width: 100%;
+    background-color: var(--pastel-grey);
+    color: black;
+}
+
+/* Desktop view
+@media screen and (min-width: 600px) {
+	body {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+    article {
+        margin: 0;
+        padding: 0;
+        width: 30dvw;
+
+		margin: 1em;
+	}
+    
+    article > img {
+        height: 20dvh;
+        border-radius: 2em 2em 0 0;
+        width: 30dvw;
+    }
+} */
