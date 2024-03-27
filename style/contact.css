@@ -55,40 +55,42 @@ nav > a:hover {
 main {
     display: flex;
     flex-direction: column;
-	max-width: 100%;
-    margin: 0;
+    max-width: 100%;
+    margin: 1em;
+    padding: 2em;
 }
 
 section {
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--pastel-beige);
 	max-width: 10dvw;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
-    align-content: flex-start;
 	margin: 0.5em;
 }
 
 /* Blog image */
-section > img {
+section > a img {
     height: 33.75px;
     width: 60px;
     padding: 0.5em;
 }
 
-section > a {
+/* section > a {
     background-color: var(--pastel-darkblue);
 	padding: 0.5em;
 	border-radius: 0.5em;
 	border: 0.5em solid var(--pastel-darkdarkblue);
     color: white;
     text-decoration: none;
-}
+} */
 
-section > a:hover {
+/* section > a:hover {
     text-decoration: none;
     background-color: var(--pastel-darkdarkblue);
-}
+} */
 
 h3 {
     display: flex;
