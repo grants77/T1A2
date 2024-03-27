@@ -54,29 +54,26 @@ nav > a:hover {
 /* START MAIN FLEX WRAPPING */
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 	max-width: 100%;
     margin: 0;
-
 }
 
 section {
 	max-width: 10dvw;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
+    align-content: flex-start;
 	margin: 0.5em;
-	padding: 0;
-    border-radius: 2em;
-
 }
 
 /* Blog image */
 section > img {
-    height: 5em;
-
-    width: 5em;
+    height: 33.75px;
+    width: 60px;
+    padding: 0.5em;
 }
 
 section > a {
