@@ -9,7 +9,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
 }
-
+/* START BODY */
 /* This is the default styling for the page unless otherwise below */
 body {
     display: flex;
@@ -120,6 +120,7 @@ p {
     margin: 0;
 }
 
+/* This is the styling for the footer. It ensures the footer is always visible at the bottom even when scrolling or showing content larger than the page */
 footer {
     display: flex;
     flex-direction: row;
@@ -130,7 +131,6 @@ footer {
     bottom: 0;
     height: 2dvh;
     width: 100%;
-    background-color: var(--pastel-grey);
     color: black;
 }
 
