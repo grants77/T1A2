@@ -1,5 +1,4 @@
 /* Purpose: This is the default colour scale and fonts for the site  */
-
 :root {
     --pastel-beige: #eee0c9;
     --pastel-lightblue: #adc4ce;
@@ -7,7 +6,7 @@
     --pastel-darkdarkblue: #1f2a32;
     --pastel-grey: #f1f0e8;   
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
+    font-size: smaller;
 }
 /* START BODY */
 /* This is the default styling for the page unless otherwise below */
@@ -20,8 +19,7 @@ body {
 }
 
 /* START HEADER AND NAVIGATION */
-
-/* This is the styling for the header, which includes the logo and navbar */
+/* This is the styling for the header, which includes the website name 'Grant' and navbar */
 header {
     display: flex;
     flex-direction: row;
@@ -38,12 +36,16 @@ header a {
     text-decoration: none;
 }
 
-/* START NAVIGATION */
+/* Actions to occur when hovering over the website name */
+header a:hover {
+    transform: scale(1.1);
+}
 
+/* START NAVIGATION */
 /* Styling for the anchor/navigation buttons in the navbar */
 nav > a {
     text-decoration: none;
-    padding: 0.25em;
+    padding: 0.25rem;
     color: var(--pastel-darkdarkblue);
 
 }
@@ -56,18 +58,25 @@ nav > a:hover {
 
 /* END HEADER AND NAVIGATION */
 
-/* START MAIN FLEX WRAPPING */
+/* START MAIN CONTENT */
 
+main {
+	display: flex;
+	max-width: 80dvw;
+    flex-direction: column;
+    padding: 0.1rem;
+    margin: 0.1rem;
+}
 
-.contentRow {
+section {
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
-    margin: 1rem 0 0 0;
+    align-items: center;
 }
 
-.aboutInfo {
-	max-width: 70dvw;
+article {
+	max-width: 80dvw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -77,27 +86,27 @@ nav > a:hover {
 }
 
 /* B&W Image Style */
-.aboutInfo > img {
+article > img {
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
 	height: 25dvh;
-	border-radius: 2em;
-    box-shadow: 0.2em 0.2em 10px black;
+	border-radius: 2rem;
+    box-shadow: 0.2rem 0.2rem 0.6rem black;
     margin: 0;
 }
 
-.aboutInfo > a {
+article > a {
     background-color: var(--pastel-darkblue);
-	padding: 0.5em;
+	padding: 0.5rem;
 	border-radius: 3em;
-	border: 2px solid var(--pastel-darkdarkblue);
+	border: 0.1rem solid var(--pastel-darkdarkblue);
     color: white;
     text-decoration: none;
 }
 
-.aboutInfo > a:hover {
+article > a:hover {
     text-decoration: none;
     background-color: var(--pastel-darkdarkblue);
 }
@@ -132,5 +141,6 @@ footer {
     height: 2dvh;
     width: 100%;
     color: black;
+    background-color: var(--pastel-beige);
 }
 

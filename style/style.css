@@ -8,7 +8,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
 }
-
+/* START BODY */
 /* This is the default styling for the visible content unless otherwise stated below */
 body {
     display: flex;
@@ -90,7 +90,7 @@ section > a {
 	padding: 0.5rem;
 	border-radius: 3rem;
     background-color: var(--pastel-darkblue);
-	border: 2px solid var(--pastel-darkdarkblue);
+	border: 0.1rem solid var(--pastel-darkdarkblue);
     color: white;
     text-decoration: none;
 }
@@ -131,4 +131,5 @@ footer {
     height: 2dvh;
     width: 100%;
     color: black;
+    background-color: var(--pastel-beige);
 }
