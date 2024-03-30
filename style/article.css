@@ -145,7 +145,7 @@ article button:hover {
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     left: 0;
@@ -154,4 +154,6 @@ footer {
     width: 100%;
     color: black;
     background-color: var(--pastel-beige);
+    text-decoration: none;
+    
 }
