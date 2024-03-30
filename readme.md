@@ -2,7 +2,9 @@
 
 ### Links:
 [Grant South - Portfolio](https://grant-south.au)
+
 [Grant South - Repository](https://github.com/grants77/T1A2)
+
 [Grant South - Presentation](https://youtu.be/)
 
 ### Purpose
@@ -22,6 +24,7 @@ The long term objective is to target this website to employers within and outsid
 ADD PNGs
 
 ### Functionality & Features
+ADD words
 
 ### Tech Stack
 - HTML5
