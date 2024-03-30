@@ -14,7 +14,7 @@ https://youtu.be/
 -- Target Audience --
 
 -- Sitemap --
-![Sitemap](./docs/sitemap.gif)
+![Sitemap](/docs/sitemap.gif)
 
 -- Website Screenshots --
 ADD PNGs
