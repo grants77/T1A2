@@ -68,5 +68,4 @@ _Contact - Desktop_
 
 ### Wireframes
 
-[mobile]()
-[desktop]()
+[mobile + desktop](/docs/Mobile+Desktop%20Wireframes.pdf)
