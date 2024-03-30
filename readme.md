@@ -39,3 +39,6 @@ ADD PNGs
 
 ### Applications Used
 - Visual Studio Code
+
+[] Create Desktop View Figmas
+[] Create Presentation / Slides
