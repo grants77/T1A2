@@ -18,10 +18,7 @@ The long term objective is to target this website to employers within and outsid
 ### Sitemap
 ![Sitemap](/docs/Sitemap.gif)
 
-### Website Screenshots
-ADD PNGs
-
-### Functionality & Features
+### Functionality & Featuresvsc
 ADD words
 
 ### Tech Stack
@@ -40,3 +37,46 @@ ADD words
 ### To Do List:
 - [ ] Create Desktop View Figmas
 - [ ] Create Presentation / Slides
+
+### Website Screenshots
+
+_Home - Mobile_
+![home - mobile](/docs/screenshots/m-home)
+
+_Home - Desktop_
+![home - desktop](/docs/screenshots/d-)
+
+_About - Mobile_
+![about - mobile](/docs/screenshots/m-about)
+
+_About - Desktop_
+![about - desktop](/docs/screenshots/d-)
+
+_Portfolio - Mobile_
+![portfolio - mobile](/docs/screenshots/m-portfolio)
+
+_Portfolio - Desktop_
+![portfolio - desktop](/docs/screenshots/d-)
+
+_Blog - Mobile_
+![blog - mobile](/docs/screenshots/m-blog)
+
+_Blog - Desktop_
+![blog - desktop](/docs/screenshots/d-)
+
+_Blog Post - Mobile_
+![blog post - mobile](/docs/screenshots/m-blogpost)
+
+_Blog Post - Desktop_
+![blog post - desktop](/docs/screenshots/d-)
+
+_Contact - Mobile_
+![contact - mobile](/docs/screenshots/m-contact)
+
+_Contact - Desktop_
+![contact - desktop](/docs/screenshots/d-)
+
+### Wireframes
+
+[mobile]()
+[desktop]()
