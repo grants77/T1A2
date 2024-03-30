@@ -150,10 +150,10 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 2dvh;
+    height: 4dvh;
     width: 100%;
     color: black;
     background-color: var(--pastel-beige);
     text-decoration: none;
-    
+
 }
