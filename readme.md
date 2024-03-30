@@ -1,36 +1,35 @@
--- T1A2 - Portfolio Assignment--
+# T1A2 - Portfolio Assignment
 
-Portfolio Website URL:
+### Portfolio Website URL:
 https://grant-south.au
 
-GitHub Repository URL:
+### GitHub Repository URL:
 https://github.com/grants77/T1A2
 
-Presentation Video URL:
+### Presentation Video URL:
 https://youtu.be/
 
--- Purpose --
+### Purpose
 
--- Target Audience --
+### Target Audience
 
--- Sitemap --
+### Sitemap
 ![Sitemap](/docs/Sitemap.gif)
 
--- Website Screenshots --
+### Website Screenshots
 ADD PNGs
 
--- Functionality & Features --
+### Functionality & Features
 
-
--- Tech Stack --
+### Tech Stack
 - HTML5
 - CSS
 
--- Websites Used --
+### Websites Used
 - GitHub
 - Netlify
 - Figma (Wireframes)
 - Draw.io (Sitemap)
 
--- Applications Used --
+### Applications Used
 - Visual Studio Code
