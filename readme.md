@@ -41,37 +41,37 @@ ADD words
 ### Website Screenshots
 
 _Home - Mobile_
-![home - mobile](/docs/screenshots/m-home)
+![home - mobile](/docs/screenshots/m-home.png)
 
 _Home - Desktop_
 ![home - desktop](/docs/screenshots/d-)
 
 _About - Mobile_
-![about - mobile](/docs/screenshots/m-about)
+![about - mobile](/docs/screenshots/m-about.png)
 
 _About - Desktop_
 ![about - desktop](/docs/screenshots/d-)
 
 _Portfolio - Mobile_
-![portfolio - mobile](/docs/screenshots/m-portfolio)
+![portfolio - mobile](/docs/screenshots/m-portfolio.png)
 
 _Portfolio - Desktop_
 ![portfolio - desktop](/docs/screenshots/d-)
 
 _Blog - Mobile_
-![blog - mobile](/docs/screenshots/m-blog)
+![blog - mobile](/docs/screenshots/m-blog.png)
 
 _Blog - Desktop_
 ![blog - desktop](/docs/screenshots/d-)
 
 _Blog Post - Mobile_
-![blog post - mobile](/docs/screenshots/m-blogpost)
+![blog post - mobile](/docs/screenshots/m-blogpost.png)
 
 _Blog Post - Desktop_
 ![blog post - desktop](/docs/screenshots/d-)
 
 _Contact - Mobile_
-![contact - mobile](/docs/screenshots/m-contact)
+![contact - mobile](/docs/screenshots/m-contact.png)
 
 _Contact - Desktop_
 ![contact - desktop](/docs/screenshots/d-)
