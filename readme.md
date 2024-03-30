@@ -1,9 +1,9 @@
 # Grant South - Portfolio Assignment (T1A2)
 
 ### Links:
-- [Grant South - Portfolio](https://grant-south.au)
-- [Grant South - Repository](https://github.com/grants77/T1A2)
-- [Grant South - Presentation](https://youtu.be/)
+- [Portfolio Website](https://grant-south.au)
+- [GitHub Repository](https://github.com/grants77/T1A2)
+- [Presentation (Youtube)](https://youtu.be/)
 
 ### Purpose
 The purpose of this website is to outline my skills as a web developer with only a few weeks of leaning with Coder Academy.
