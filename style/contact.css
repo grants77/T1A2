@@ -149,3 +149,25 @@ footer {
     color: black;
     background-color: var(--pastel-beige);
 }
+
+/* Media to allow best view on Desktop */
+@media screen and (min-width: 600px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--pastel-beige);
+        max-width: 10dvw;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5rem;
+    }
+
+    article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 20dvw;
+    }
+}

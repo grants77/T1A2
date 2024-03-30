@@ -88,11 +88,6 @@ article > img {
     width: 80dvw;
 }
 
-article > a:hover {
-    text-decoration: none;
-    background-color: var(--pastel-darkdarkblue);
-}
-
 /* Text formatting to determine how different text presents itself in various areas */
 
 h1 {
@@ -145,7 +140,7 @@ button {
     transition: 0.5s;
 }
 
-/* About me link animation */
+/* Link animation */
 button:hover {
     text-decoration: none;
     background-color: var(--pastel-darkdarkblue);
@@ -167,6 +162,7 @@ footer {
     background-color: var(--pastel-beige);
 }
 
+/* Media to allow best view on Desktop */
 @media screen and (min-width: 600px) {
     section {
         display: flex;
