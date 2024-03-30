@@ -82,19 +82,7 @@ section > a img {
     padding: 0.5rem;
 }
 
-/* section > a {
-    background-color: var(--pastel-darkblue);
-	padding: 0.5em;
-	border-radius: 0.5em;
-	border: 0.5em solid var(--pastel-darkdarkblue);
-    color: white;
-    text-decoration: none;
-} */
-
-/* section > a:hover {
-    text-decoration: none;
-    background-color: var(--pastel-darkdarkblue);
-} */
+/* Text formatting to determine how different text presents itself in various areas */
 
 h3 {
     display: flex;
@@ -112,6 +100,20 @@ p {
     display: flex;
     padding: 0;
     margin: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 4dvw;
+    text-decoration: none;
+}
+
+h6 {
+    margin: 4dvw;
+    text-decoration: none;
 }
 
 /* About me link */
@@ -137,12 +139,12 @@ article button:hover {
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 2dvh;
+    height: 4dvh;
     width: 100%;
     color: black;
     background-color: var(--pastel-beige);
