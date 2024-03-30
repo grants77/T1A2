@@ -54,17 +54,17 @@ _Contact - Mobile_
 ![contact - mobile](/docs/screenshots/m-contact.PNG)
 
 _Home - Desktop_
-![home - desktop](/docs/screenshots/d-)
+![home - desktop](/docs/screenshots/d-home.png)
 _About - Desktop_
-![about - desktop](/docs/screenshots/d-)
+![about - desktop](/docs/screenshots/d-about.png)
 _Portfolio - Desktop_
-![portfolio - desktop](/docs/screenshots/d-)
+![portfolio - desktop](/docs/screenshots/d-portfolio.png)
 _Blog - Desktop_
-![blog - desktop](/docs/screenshots/d-)
+![blog - desktop](/docs/screenshots/d-blog.png)
 _Blog Post - Desktop_
-![blog post - desktop](/docs/screenshots/d-)
+![blog post - desktop](/docs/screenshots/d-blogpost.png)
 _Contact - Desktop_
-![contact - desktop](/docs/screenshots/d-)
+![contact - desktop](/docs/screenshots/d-contact.png)
 
 ### Wireframes
 
