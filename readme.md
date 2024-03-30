@@ -41,7 +41,7 @@ ADD words
 ### Website Screenshots
 
 _Home - Mobile_
-![home - mobile](/docs/screenshots/m-home.png)
+![home - mobile](/docs/screenshots/m-home.PNG)
 
 _Home - Desktop_
 ![home - desktop](/docs/screenshots/d-)
