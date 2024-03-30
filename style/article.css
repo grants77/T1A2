@@ -166,3 +166,25 @@ footer {
     color: black;
     background-color: var(--pastel-beige);
 }
+
+@media screen and (min-width: 600px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 90dvw;
+    }
+
+    article {
+        width: 30dvw;
+    }
+
+    article > img {
+        height: 15dvh;
+        border-radius: 2em 2em 0 0;
+        width: 30dvw;
+    }
+
+}
