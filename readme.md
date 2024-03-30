@@ -1,12 +1,8 @@
 # Grant South - Portfolio Assignment (T1A2)
 
-### Portfolio Website URL:
+### Links:
 [Grant South - Portfolio](https://grant-south.au)
-
-### GitHub Repository URL:
 [Grant South - Repository](https://github.com/grants77/T1A2)
-
-### Presentation Video URL:
 [Grant South - Presentation](https://youtu.be/)
 
 ### Purpose
