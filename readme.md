@@ -32,13 +32,14 @@ ADD PNGs
 - CSS
 
 ### Websites Used
-- GitHub
-- Netlify
-- Figma (Wireframes)
-- Draw.io (Sitemap)
+- [GitHub](https://github.com)
+- [Netlify](https://netlify.com)
+- [Figma (Wireframes)](https://figma.com)
+- [Draw.io (Sitemap)](https://draw.io)
 
 ### Applications Used
 - Visual Studio Code
 
+### To Do List:
 - [ ] Create Desktop View Figmas
 - [ ] Create Presentation / Slides
