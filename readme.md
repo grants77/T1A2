@@ -14,7 +14,7 @@ https://youtu.be/
 -- Target Audience --
 
 -- Sitemap --
-ADD PNGs
+[Sitemap (PDF)](https://grant-south.au/docs/sitemap.pdf)
 
 -- Website Screenshots --
 ADD PNGs
@@ -26,16 +26,11 @@ ADD PNGs
 - HTML5
 - CSS
 
+-- Websites Used --
+- GitHub
+- Netlify
+- Figma (Wireframes)
+- Draw.io (Sitemap)
 
-
-
-<!-- README Document Requirements -->
-
-Description:
-
-
-
-- Sitemap (Flowchart)
-- Target Audience
-- Tech Stack (HTML, CSS etc)
-
+-- Applications Used --
+- Visual Studio Code
