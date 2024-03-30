@@ -14,7 +14,7 @@ https://youtu.be/
 -- Target Audience --
 
 -- Sitemap --
-[Sitemap (PDF)](https://grant-south.au/docs/sitemap.pdf)
+[Sitemap](https://grant-south.au/docs/sitemap.gif)
 
 -- Website Screenshots --
 ADD PNGs
