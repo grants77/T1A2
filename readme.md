@@ -29,7 +29,9 @@ The main functionality and features of my website are as below:
  - **contact:** Various links to make contact with me (phone number not real).
 
  **Design:**
- - I designed this website with a mobile first approach. I developed the mobile design wireframes in Figma and developed the site to those specifications before designing the Desktop layout in Figma and then adding in media elements to bring it to life.
+ - **Mobile:** I designed this website with a mobile first approach, creating wireframe designs in Figma and then developing it out into the mobile layout.
+ - **Desktop:** After completing the mobile layout I went back to Figma and created a Desktop wireframe design before developing it out into the dekstop layout. Whilst creating the Dekstop wireframes after developing the mobile version, I kept in mind the target for desktop whilst developing the mobile version. 
+ - **Flexbox:** Flexbox was used extensively throughout this website it allow the ease of transition between mobile and desktop versions.
 
 
 **Accessibility:**
@@ -41,8 +43,9 @@ The main functionality and features of my website are as below:
 **Components**
 - **Nav Bar:** I created the Nav Bar with simplicity in mind to allow easy navigation. I incorporated hover underlining to provide feedback to the user that the text was a link they could navigate to. This is in the semantic 'nav' section of each page and commented in the HTML and CSS files.
 - **Home:** The 'Grant' in the top left of the site is a hyperlink to the home page. I incorporated hover transform to again provide feedback to the user that they could select the word to return home. This is in the semantic 'header' section of each page and commented in the HTML and CSS files.
-- **Section/Article:** I utilised 'section' and 'article' components in the portfolio and blog pages to allow stilising and responsiveness 
-
+- **Section/Article:** I utilised 'section' and 'article' components in the portfolio and blog pages to allow stilising and responsiveness. Each blog post on the blog page is wrapped in an 'article' tag allowing ease of locating individual posts.
+- **footer:** I designed the footer section to be static at the bottom of the page, holding it in place if the screen is required to scroll to view further content.
+- **top:** I addeed a 'top' button to the bottom left of each page allowing the user to easily navigate back to the top of the page if reading through an article.
 
 ### Tech Stack
 - HTML
