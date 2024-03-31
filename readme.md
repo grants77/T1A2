@@ -39,9 +39,9 @@ The main functionality and features of my website are as below:
 - Commentary throughout the code to allow further ease of reading and understanding of the layout.
 
 **Components**
-- Nav Bar: I created the Nav Bar with simplicity in mind to allow easy navigation. I incorporated hover underlining to provide feedback to the user that the text was a link they could navigate to. This is in the semantic 'nav' section of each page and commented in the HTML and CSS files.
-- Home: The 'Grant' in the top left of the site is a hyperlink to the home page. I incorporated hover transform to again provide feedback to the user that they could select the word to return home. This is in the semantic 'header' section of each page and commented in the HTML and CSS files.
-- Section/Article: I utilised 'section' and 'article' components in the portfolio and blog pages to allow stilising and responsiveness 
+- **Nav Bar:** I created the Nav Bar with simplicity in mind to allow easy navigation. I incorporated hover underlining to provide feedback to the user that the text was a link they could navigate to. This is in the semantic 'nav' section of each page and commented in the HTML and CSS files.
+- **Home:** The 'Grant' in the top left of the site is a hyperlink to the home page. I incorporated hover transform to again provide feedback to the user that they could select the word to return home. This is in the semantic 'header' section of each page and commented in the HTML and CSS files.
+- **Section/Article:** I utilised 'section' and 'article' components in the portfolio and blog pages to allow stilising and responsiveness 
 
 
 ### Tech Stack
