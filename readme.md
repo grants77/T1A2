@@ -3,7 +3,6 @@
 ### Links:
 - [Portfolio Website](https://grant-south.au)
 - [GitHub Repository](https://github.com/grants77/T1A2)
-- [Presentation (Youtube)](https://youtu.be/)
 
 ### Purpose
 The purpose of this website is to outline my skills as a web developer with only a few weeks of leaning with Coder Academy.
@@ -21,7 +20,7 @@ The long term objective is to target this website to employers within and outsid
 ### Functionality & Features
 The main functionality and features of my website are as below:
 
-Navigation:
+**Navigation:**
 - A simple navigation bar along the top which is consistent accross all pages of the site.
  - home: A brief introduction to who I am.
  - about: More about who I am, and my goals.
@@ -29,18 +28,24 @@ Navigation:
  - blog: Example blog posts which can be updated as the course goes on and time permits.
  - contact: Various links to make contact with me (phone number not real).
 
- Design:
+ **Design:**
  - I designed this website with a mobile first approach. I developed the mobile design wireframes in Figma and developed the site to those specifications before designing the Desktop layout in Figma and then adding in media elements to bring it to life.
 
 
-Accessibility:
+**Accessibility:**
 - A minimalistic colour pallet allowing strong contrast between the background and text colours.
 - Alternate text on images allowing identification of images for vision impared or if links break.
 - Semantic elements used throughout the entire site allowing easy reading of HTML and CSS files
 - Commentary throughout the code to allow further ease of reading and understanding of the layout.
 
+**Components**
+- Nav Bar: I created the Nav Bar with simplicity in mind to allow easy navigation. I incorporated hover underlining to provide feedback to the user that the text was a link they could navigate to. This is in the semantic 'nav' section of each page and commented in the HTML and CSS files.
+- Home: The 'Grant' in the top left of the site is a hyperlink to the home page. I incorporated hover transform to again provide feedback to the user that they could select the word to return home. This is in the semantic 'header' section of each page and commented in the HTML and CSS files.
+- Section/Article: I utilised 'section' and 'article' components in the portfolio and blog pages to allow stilising and responsiveness 
+
+
 ### Tech Stack
-- HTML5
+- HTML
 - CSS
 
 ### Websites Used
@@ -53,10 +58,6 @@ Accessibility:
 - Visual Studio Code - For writing the HTML and CSS code.
 - Terminal - For version control and pushing to GitHub Repository.
 - Discord - For moral support
-
-### To Do List:
-- [ ] Create Desktop View Figmas
-- [ ] Create Presentation / Slides
 
 ### Website Screenshots
 
