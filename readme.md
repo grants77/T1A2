@@ -18,21 +18,41 @@ The long term objective is to target this website to employers within and outsid
 ### Sitemap
 ![Sitemap](/docs/Sitemap.gif)
 
-### Functionality & Featuresvsc
-ADD words
+### Functionality & Features
+The main functionality and features of my website are as below:
+
+Navigation:
+- A simple navigation bar along the top which is consistent accross all pages of the site.
+ - home: A brief introduction to who I am.
+ - about: More about who I am, and my goals.
+ - portfolio: Showing my education/employment and ongoing training. This will be updated as the course progresses.
+ - blog: Example blog posts which can be updated as the course goes on and time permits.
+ - contact: Various links to make contact with me (phone number not real).
+
+ Design:
+ - I designed this website with a mobile first approach. I developed the mobile design wireframes in Figma and developed the site to those specifications before designing the Desktop layout in Figma and then adding in media elements to bring it to life.
+
+
+Accessibility:
+- A minimalistic colour pallet allowing strong contrast between the background and text colours.
+- Alternate text on images allowing identification of images for vision impared or if links break.
+- Semantic elements used throughout the entire site allowing easy reading of HTML and CSS files
+- Commentary throughout the code to allow further ease of reading and understanding of the layout.
 
 ### Tech Stack
 - HTML5
 - CSS
 
 ### Websites Used
-- [GitHub](https://github.com)
-- [Netlify](https://netlify.com)
-- [Figma (Wireframes)](https://figma.com)
-- [Draw.io (Sitemap)](https://draw.io)
+- [GitHub - Repository](https://github.com)
+- [Netlify - Deployment](https://netlify.com)
+- [Figma - Wireframes](https://figma.com)
+- [Draw.io - Sitemap](https://draw.io)
 
 ### Applications Used
-- Visual Studio Code
+- Visual Studio Code - For writing the HTML and CSS code.
+- Terminal - For version control and pushing to GitHub Repository.
+- Discord - For moral support
 
 ### To Do List:
 - [ ] Create Desktop View Figmas
@@ -68,4 +88,4 @@ _Contact - Desktop_
 
 ### Wireframes
 
-[mobile + desktop](/docs/Mobile+Desktop%20Wireframes.pdf)
+- [mobile + desktop](/docs/Mobile+Desktop%20Wireframes.pdf)
