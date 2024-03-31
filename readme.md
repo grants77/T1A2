@@ -58,9 +58,9 @@ The main functionality and features of my website are as below:
 - [Draw.io - Sitemap](https://draw.io)
 
 ### Applications Used
-- Visual Studio Code - For writing the HTML and CSS code.
-- Terminal - For version control and pushing to GitHub Repository.
-- Discord - For moral support
+- **Visual Studio Code:** For writing the HTML and CSS code.
+- **Terminal:** For version control and pushing to GitHub Repository.
+- **Discord:** For moral support
 
 ### Website Screenshots
 
