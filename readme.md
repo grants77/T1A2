@@ -22,11 +22,11 @@ The main functionality and features of my website are as below:
 
 **Navigation:**
 - A simple navigation bar along the top which is consistent accross all pages of the site.
- - home: A brief introduction to who I am.
- - about: More about who I am, and my goals.
- - portfolio: Showing my education/employment and ongoing training. This will be updated as the course progresses.
- - blog: Example blog posts which can be updated as the course goes on and time permits.
- - contact: Various links to make contact with me (phone number not real).
+ - **home:** A brief introduction to who I am.
+ - **about:** More about who I am, and my goals.
+ - **portfolio:** Showing my education/employment and ongoing training. This will be updated as the course progresses.
+ - **blog:** Example blog posts which can be updated as the course goes on and time permits.
+ - **contact:** Various links to make contact with me (phone number not real).
 
  **Design:**
  - I designed this website with a mobile first approach. I developed the mobile design wireframes in Figma and developed the site to those specifications before designing the Desktop layout in Figma and then adding in media elements to bring it to life.
